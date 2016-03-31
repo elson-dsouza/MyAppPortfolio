@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.elson.myappportfolio.MainActivityFragment"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/heading"
+        android:layout_weight="0.11"
+        android:elegantTextHeight="true"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textSize="30dp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/spotify_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:enabled="true"
+        android:contextClickable="false"
+        android:clickable="true"
+        android:background="#6feaec"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scores_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:enabled="true"
+        android:contextClickable="false"
+        android:clickable="true"
+        android:text="SCORES APP"
+        android:background="#6feaec"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY APP"
+        android:id="@+id/library_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:enabled="true"
+        android:contextClickable="false"
+        android:clickable="true"
+        android:background="#6feaec"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/build_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:enabled="true"
+        android:contextClickable="false"
+        android:clickable="true"
+        android:background="#6feaec"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XYZ READER"
+        android:id="@+id/xyz_button"
+        android:layout_weight="0.11"
+        android:enabled="true"
+        android:contextClickable="false"
+        android:clickable="true"
+        android:background="#6feaec"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE: MY OWN APP"
+        android:id="@+id/capstone_button"
+        android:layout_weight="0.11"
+        android:enabled="true"
+        android:contextClickable="false"
+        android:clickable="true"
+        android:background="#9ee663"
+        android:layout_margin="10dp" />
+
+
+</LinearLayout>
