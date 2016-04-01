@@ -31,7 +31,6 @@ public class MainActivityFragment extends Fragment {
                 String buttonText=((Button)v).getText().toString();
                 Toast.makeText(getActivity().getApplicationContext() ,"This button launches the "+buttonText+" app!",Toast.LENGTH_SHORT).show();
             }
-
         };
         Button SpotifyButton=(Button)mainView.findViewById(R.id.spotify_button);
         SpotifyButton.setOnClickListener(listen);
